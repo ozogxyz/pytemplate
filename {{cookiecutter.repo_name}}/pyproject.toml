@@ -44,7 +44,3 @@ include = '\.pyi?$'
 convention = 'google'
 # ignore all missing docs errors
 add-ignore = ['D100', 'D101', 'D102', 'D103', 'D104', 'D105', 'D106', 'D107']
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
