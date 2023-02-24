@@ -1,9 +1,10 @@
 {
-    "full_name": "Orkun Ozoglu",
-    "email": "ozoglu.o@phystech.edu",
+    "author_name": "Orkun Ozoglu",
+    "author_email": "ozoglu.o@phystech.edu",
     "repo_name": "project",
-    "app_class_name": "Project",
-    "app_title": "Title",
-    "short_description": "Template for rapid prototyping.",
+    "python_version": "3.10",
+    "readme_title": "Title",
+    "package_description": "Template for rapid prototyping.",
+    "package_url": "",
     "version": "0.1.0"
 }

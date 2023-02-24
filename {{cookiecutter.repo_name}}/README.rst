@@ -1,6 +1,6 @@
-{{cookiecutter.app_title}}
+{{cookiecutter.readme_title}}
 ==========================
 
-{{cookiecutter.short_description}}
+{{cookiecutter.package_description}}
 
 ----

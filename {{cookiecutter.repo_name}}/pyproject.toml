@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]  # https://python-poetry.org/docs/pyproject/
-name = "{{ cookiecutter.__package_name_kebab_case }}"
+name = "{{ cookiecutter.repo_name }}"
 version = "0.0.0"
 description = "{{ cookiecutter.package_description }}"
 authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
