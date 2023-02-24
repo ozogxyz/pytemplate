@@ -8,7 +8,7 @@ from omegaconf import DictConfig, open_dict
 def cfg_train() -> DictConfig:
     with initialize(version_base="1.2", config_path="../config"):
         cfg = compose(
-            config_name="train.yaml", return_hydra_config=True, overrides=[]
+            config_name="config.yaml", return_hydra_config=True, overrides=[]
         )
 
     return cfg

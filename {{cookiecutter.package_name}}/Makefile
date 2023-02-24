@@ -27,4 +27,4 @@ test-full: ## Run all tests
 	pytest
 
 train: ## Train the model
-	python {{ cookiecutter.package_name} }/main.py
+	python {{ cookiecutter.package_name }}/main.py
