@@ -6,16 +6,13 @@ build-backend = "poetry.core.masonry.api"
 name = "project"
 version = "0.0.0"
 description = "{{ cookiecutter.package_description }}"
-authors = "{{ cookiecutter.author_name }}" 
-author_email = "{{ cookiecutter.author_email }}"
+authors =["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 readme = "README.md"
 repository = ""
 
 [tool.poetry.dependencies]
 python = "^3.10"
 torch = "^1.13.1"
-hydra-core = "^1.3.2"
-catalyst = "^22.4"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"
